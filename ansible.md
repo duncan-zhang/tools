@@ -10,7 +10,7 @@ sudo apt install ansible
 
 [Ansible Community Documentation](https://docs.ansible.com/ansible/latest/installation_guide/installation_distros.html#installing-ansible-on-ubuntu)
 
-#安裝後測試
+# 測試ansible
 
 編輯ansible hosts
 ```sh
