@@ -27,8 +27,8 @@ sudo apt-get install azcopy
 [azcopy 官方文件](https://learn.microsoft.com/zh-tw/azure/storage/common/storage-use-azcopy-v10?tabs=dnf)
 
 基本資料
-storage name: backupkg444ge5
-container name: dbbackup
+- storage name: backupkg444ge5
+- container name: dbbackup
 
 Azure Login
 ```sh
