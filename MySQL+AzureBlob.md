@@ -1,4 +1,4 @@
-#DB備份機制說明
+# DB備份機制說明
 
 ## mysql備份機制說明
 執行檔案位置 `/var/backups/mysql/mysql_backup.sh`
@@ -16,14 +16,14 @@
 
 ## Azure Blob安裝及基本操作
 
-###安裝說明
+### 安裝說明
 ```sh
 wget https://packages.microsoft.com/config/debian/12/packages-microsoft-prod.deb
 sudo dpkg -i packages-microsoft-prod.deb
 sudo apt-get update
 sudo apt-get install azcopy
 ```
-###基本指令操作
+### 基本指令操作
 <azcopy 官方文件> https://learn.microsoft.com/zh-tw/azure/storage/common/storage-use-azcopy-v10?tabs=dnf
 基本資料
 storage name: backupkg444ge5
