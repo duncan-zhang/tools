@@ -62,7 +62,7 @@ azcopy sync '<檔案路徑>' "https://<storage name>.blob.core.windows.net/<cont
 ```
 - `--delete-destination=true`鏡像備份
 
-Azure SAS(共用存取簽章)
+#### Azure SAS(共用存取簽章)
 
 啟用簽章
 `Azure網頁 -> 儲存體帳戶(storage name) -> 安全性+網路 -> 共用存取簽章`
@@ -70,9 +70,10 @@ Azure SAS(共用存取簽章)
 - 允許的資源類型: 容器、物件
 - 開始及到期日/時間: 自訂
 - 允許的 IP 位址: IP_list
-`產生SAS 與連接字串`
 
-透過SAS Token上傳
+點擊`產生SAS 與連接字串`
+
+#### 透過SAS Token上傳
 ```sh
 azcopy sync '<檔案路徑>' "https://<storage name>.blob.core.windows.net/<container name>/<folder name>?<SAS_Token> --delete-destination=true"
 ```
